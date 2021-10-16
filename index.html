@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+    <title>Tienda de Libros</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css" />
+    <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <div class="page-nav">
+        <h1>Tienda de Libros</h1>
+        <button id="checkout" class="button-checkout" onclick="pay()">Carrito</button>
+        <button class="button-pago" onclick="window.location.href='pago.html'">Pago</button>
+    </div>
+    <div class="page-content">
+        <div class="product-container">
+            <h3>Nombre: Cien años de soledad</h3>
+            <h3>Autor: Gabriel García Márquez</h3>
+            <img src="images/product-1.jpg"/>
+            <button class= "button-des" onclick="window.location.href='descripcion1.html'">Ver</button>
+            <h1>$350</h1>
+            <button class="button-add" onclick="add('Cien años de soledad', 350)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Nombre: El laberinto de la soledad</h3>
+            <h3>Autor: Octavio Paz</h3>
+            <img src="images/product-2.jpg" />
+            <button class= "button-des" onclick="window.location.href='descripcion2.html'">Ver</button>
+            <h1>$200</h1>
+            <button class="button-add" onclick="add('El laberinto de la soledad', 200)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Nombre: Tiende tu cama y otros pequeños</h3>
+            <h3>hábitos que cambiarán tu vida y el mundo</h3>
+            <h3>Autor: William H. McRaven</h3>
+            <img src="images/product-3.jpg" />
+            <button class= "button-des" onclick="window.location.href='descripcion3.html'">Ver</button>
+            <h1>$220</h1>
+            <button class="button-add" onclick="add('Tiende tu cama y otros pequeños hábitos', 220)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Nombre: Los hornos de Hitler</h3>
+            <h3>Autor: Olga Lengyel</h3>
+            <img src="images/product-4.jpg" />
+            <button class= "button-des" onclick="window.location.href='descripcion4.html'">Ver</button>
+            <h1>$260</h1>
+            <button class="button-add" onclick="add('Los hornos de Hitler', 260)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Nombre: Por favor sea feliz</h3>
+            <h3>Autor: Andrew Matthews</h3>
+            <img src="images/product-5.jpg" />
+            <button class= "button-des" onclick="window.location.href='descripcion5.html'">Ver</button>
+            <h1>$95</h1>
+            <button class="button-add" onclick="add('Por favor sea feliz', 95)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Nombre: El bosón de Higgs no te va a hacer la cama</h3>
+            <h3>Autor: Javier Santaolalla</h3>
+            <img src="images/product-6.jpg" />
+            <button class= "button-des" onclick="window.location.href='descripcion6.html'">Ver</button>
+            <h1>$399</h1>
+            <button class="button-add" onclick="add('El bosón de Higgs', 399)">Agregar</button>
+        </div>
+    </div>
+</body>
